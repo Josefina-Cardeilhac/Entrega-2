@@ -1,0 +1,191 @@
+/*RESET*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+/*estilos generales*/
+ 
+body{
+    /*se utiliza para colores generales, tipo de letra etc*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size:cover;
+}
+header{
+    background-color: rgb(160, 248, 160);
+    position: -webkit-sticky;
+    top: 00px;
+    margin: 5px; 
+    margin-left: 10px;   
+    margin-right: 10px;
+}
+header div img{
+    width: 100px;
+    height: 110px;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display:inline-block;
+background-color: rgb(160, 248, 160);
+margin-left:70px;
+padding: 5px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.homep{
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parrafo{
+    background-color: rgb(160, 248, 160);
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+
+
+
+}
+main.productos h1{
+    text-align: center;
+    background-color: floralwhite;
+    margin: 20px;
+    padding: 20px;
+}
+main.productos h2.tit{
+    text-align: center;
+    background-color: rgb(160, 248, 160);
+    margin: 10px;
+    padding: 5px;
+}
+main.productos h4.tit{
+    text-align: center;
+    background-color: rgb(160, 248, 160);
+    margin: 10px;
+    padding: 10px;
+}
+.containercard1{
+    margin-left: 7%;
+    flex-wrap: wrap;
+}
+.containercard2{
+    margin-left: 1.5%;
+    flex-wrap: wrap;
+}
+
+ main.index h1{
+    text-align: center;
+    background-color: floralwhite;
+    margin: 20px;
+    padding: 20px;
+ }
+ main.index aside{
+    text-align: center;
+    display: inline-block;
+    flex: 30px;
+    background-color: rgb(160, 248, 160) ;
+    margin-left: 15%;
+    padding: 50px;
+ }
+main.index section{
+    text-align: center;
+    display: inline-block;
+    flex:50% ;
+    background-color: floralwhite;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 70px;
+}
+main.index img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    padding: 10px;
+}
+ main.redes h1{
+    text-align: center;
+    background-color: floralwhite;
+    margin: 20px;
+    padding: 20px; 
+ }
+ main.redes a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(160, 248, 160);
+    margin: 20px;
+    padding: 20px; 
+ }
+ main.redes h2{
+    text-align: center;
+    background-color: floralwhite;
+    margin: 20px;
+    padding: 20px; 
+ }
+
+
+    main.contactanos h1{
+    text-align: center;
+    background-color: rgb(141, 245, 141);
+    margin: 20px;
+    padding: 20px;
+ }
+
+    main.contactanos h2{
+    text-align: center;
+    background-color: rgb(141, 245, 141);
+    margin: 10px;
+    padding: 5px;
+}
+    main.contactanos div.mapa{
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    border-width: 5px;
+    border-color: rgb(141, 245, 141);
+    border-style: outset;  
+    
+}
+main div.sellos1 img{
+    display: inline-block;
+    width: 140px;
+    height: 150px;
+    padding: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    flex-wrap: wrap;
+}
+
+
+ footer{
+    text-align: center;
+    background-color: rgb(141, 245, 141);
+    border-bottom: 0;
+    margin-top: 5px;
+    padding: 10px;
+ }
+ @media screen and (max-width: 480px) {
+    .sellos1{
+        display: inline-block;
+        width: 70px;
+        height: 75px;
+        padding: 2px;
+        margin-left: 75px;
+        margin-right: 175px;
+        flex-wrap: wrap;
+
+    }
+ }
